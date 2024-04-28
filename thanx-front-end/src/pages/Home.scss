@@ -1,0 +1,24 @@
+@use "./styles/styles" as *;
+
+.HomePage { 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .login-area {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-area {
+    display: flex;
+    justify-content: center;
+
+    .Button:first-of-type{ 
+      margin-right: $space-4;
+    }
+    .Button:last-of-type{ 
+      margin-left: $space-4;
+    }
+  }
+}

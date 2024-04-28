@@ -1,0 +1,20 @@
+@use "./styles/styles" as *;
+
+.User { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: $space-13;
+  
+  .name {
+    font-size: $size-8;
+    font-weight: $weight-5;
+    text-align: center;
+    margin-bottom: $space-4;
+  }
+
+  .balance {
+    text-align: center;
+    text-transform: capitalize;
+  }
+}

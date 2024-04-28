@@ -1,0 +1,15 @@
+@use "./styles/styles" as *;
+
+.Reward {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  .reward-description {
+    display: flex;
+
+    .reward-cost {
+      margin-right: $space-4;
+    }
+  }
+}

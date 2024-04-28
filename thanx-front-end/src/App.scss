@@ -1,0 +1,67 @@
+@use "./styles/styles" as *;
+
+body {
+  font-size: $size-7;
+  font-weight: normal;
+  color: $blue-1;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  margin: 0 9.5rem;
+  flex-direction: column;
+  flex: 1;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: $space-12 $space-8;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    margin: 0 2rem;
+  }
+}
+

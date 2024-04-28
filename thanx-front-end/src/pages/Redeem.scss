@@ -1,0 +1,19 @@
+@use "./styles/styles" as *;
+
+.RedeemPage { 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .reward-area {
+    width: 50%;
+    margin-bottom: $space-13;
+
+    ul {
+      list-style-type: none; /* Remove bullets */
+      padding: 0; /* Remove padding */
+      margin: 0; /* Remove margins */
+    }
+  }
+}

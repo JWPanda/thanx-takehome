@@ -1,0 +1,16 @@
+@use "./styles/styles" as *;
+
+.Redemption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $space-4;
+  
+  .reward-description {
+    display: flex;
+
+    .reward-cost {
+      margin-right: $space-4;
+    }
+  }
+}
